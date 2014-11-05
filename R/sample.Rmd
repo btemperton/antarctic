@@ -1,0 +1,18 @@
+### This will serve as a testbed for R Markdown
+
+Text will be used above code blocks to tell you what the code is going to do. For instance, this one will calculate the mean of a list
+
+```{r}
+x <-runif(100)
+x
+```
+The mean of these numbers can then be displayed inline like this. The mean of the result is `r mean(x)`.
+
+Also, we can make plots like this:
+```{r fig.width=10, fig.height=8}
+hist(x)
+```
+
+By using R Markdown, we can keep a track of all of the analyses we do, which will make publication easier and will avoid a long email trail. Any questions can be raised as issues on the scripts. It'll be a nice learning tool for anyone else to then come along and use it.
+
+
