@@ -1,4 +1,4 @@
-antarctic
+A repository for the Collaborative Antarctic work 
 =========
 
-github repository for collaboration
+All R analyses will be performed in R Markdown so that they are fully runnable
